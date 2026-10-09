@@ -1,0 +1,57 @@
+{
+  "images": [
+    {
+      "key": "head",
+      "embeddedSha256": "96a86b337614436e9821bc3e2f018a7af0efe3bd4b32e4538c713461fec3b035"
+    },
+    {
+      "key": "rocket",
+      "embeddedSha256": "cd99c60cbfd440a0ea0fc3293783078f63593261592a3156b3f573afb19e7528"
+    },
+    {
+      "key": "blue",
+      "embeddedSha256": "39c9f6a86bda8025ff3c9e70b95483ae15d7e9359059c667f583ba666da1b6ae"
+    },
+    {
+      "key": "rose",
+      "embeddedSha256": "7da226eeaca46c5afc429eb34e835ade996ccc334e82d02d8686217e82f79d4d"
+    },
+    {
+      "key": "capsule",
+      "embeddedSha256": "f99f1ba570228f353e6d5b997b1cf32ee3b624a56bfda1dda68ebd5befb49f14"
+    },
+    {
+      "key": "parachute",
+      "embeddedSha256": "3281f95354d00ce746243c87f9a73a001e737194550924672bdb4bc8ac252073"
+    },
+    {
+      "key": "chichibei",
+      "embeddedSha256": "94610c57274c453aa78ff8ac8140de02c353b77d3ce039d202022ba77342c114"
+    }
+  ],
+  "tracks": [
+    {
+      "sha256": "22183702acd94bd0277946f20751a04a6d22a0c26f171aa99c387a3fd909a5cc"
+    },
+    {
+      "sha256": "b4035b73fde003d89c14dcd3a44fe42fda1be9b43e54c967adcc761011241c20"
+    },
+    {
+      "sha256": "b400b3e814c5a8839ed8b709f8b78a8f4ccc4b3ab0b31d558e246ab8134de7e1"
+    },
+    {
+      "sha256": "a20be0b8a2910e04ed94caebbf1b5d32f5e4ffe56d2988f81ebb71028730b128"
+    }
+  ],
+  "effects": [
+    {
+      "sha256": "97e334e5df9ae393111067a01b3cf30a8be531e26c4ae474808e62563f461ead"
+    },
+    {
+      "sha256": "b6fef6d3d080a4c2f4393468197e5a02a0887e322c049f1d436e88e9eb90b278"
+    }
+  ],
+  "collision": {
+    "sha256": "cceacac3abc4a89895ecace914a1626c617829a233db9ae4cf59631430eee025"
+  }
+}

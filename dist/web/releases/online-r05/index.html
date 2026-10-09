@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#081426">
+  <meta name="description" content="飞翔的瓦莲娜：基于《雪松》的非商业二创小游戏。点击起飞，穿过火箭、卫星与小行星。">
+  <title>飞翔的瓦莲娜</title>
+  <link rel="stylesheet" href="./assets/style.fa1e13f73fd8.css" onerror="if(document.readyState==='loading'){window.addEventListener('DOMContentLoaded',function(){document.getElementById('bootError').hidden=false})}else{document.getElementById('bootError').hidden=false}">
+</head>
+<body>
+  <div id="ambient" aria-hidden="true"></div>
+  <main id="stage" aria-label="飞翔的瓦莲娜游戏">
+    <canvas id="game" width="450" height="800" aria-label="太空飞行游戏画面；空格或点击画面上升，P 键暂停。"></canvas>
+    <div id="loading" class="screen loading"><h1>飞翔的瓦莲娜</h1><span class="loading-star">✦</span><p id="loadingText" role="status">正在准备飞行…</p><button id="retryImages" class="secondary" hidden>重试加载素材</button></div>
+    <div id="bootError" hidden role="alert" style="position:fixed;inset:15%;z-index:100;background:#091322;color:#fff;padding:24px">页面资源未能加载，请检查网络后重新加载。<button onclick="location.reload()">重新加载</button></div>
+    <section id="menu" class="screen" hidden aria-label="主菜单">
+      <div class="title"><span>飞翔的</span><h1>瓦莲娜</h1><p>舱门已经拦不住她了</p></div>
+      <span class="earth-note" aria-hidden="true">地球，就在那里。</span>
+      <div class="menu-actions">
+        <fieldset id="difficulty"><legend>飞行难度</legend><div class="mode-options">
+          <label><input type="radio" name="mode" value="standard" checked><span>标准</span></label>
+          <label><input type="radio" name="mode" value="tharsis"><span>塔尔西斯X</span></label>
+          <label><input type="radio" name="mode" value="antey"><span>安泰宇航</span></label>
+        </div></fieldset>
+        <p id="modeDescription">熟悉的航线，自由穿越障碍。</p>
+        <button id="start" class="primary">开始发射 <span aria-hidden="true">✦</span></button>
+        <p class="control-hint">轻触屏幕 · 点击鼠标 · 空格上升</p>
+        <p id="bestLine" class="best-line"><span id="recordLabel">标准最高纪录</span> <strong id="menuBest">0</strong></p>
+      </div>
+      <div class="menu-footer"><button id="aboutButton" class="text-button">关于这次飞行</button><span>单兵返航计划</span></div>
+    </section>
+    <div id="toolbar" hidden>
+      <button id="soundButton" class="icon-button sound-button" aria-label="声音设置" title="随身电台与声音设置"><span id="soundIcon" aria-hidden="true">♫</span><span class="radio-label">电台</span></button>
+      <button id="pauseButton" class="icon-button pause-button" aria-label="暂停游戏" title="暂停（P）" hidden><span aria-hidden="true">Ⅱ</span></button>
+      <button id="skip" class="small-button" hidden>跳过动画</button>
+    </div>
+    <div id="hud" hidden aria-live="off"><span>穿越</span><strong id="score">0</strong><small id="flightLabel">朝着地球，继续飞。</small></div>
+    <section id="introCaption" hidden aria-label="开场剧情字幕"><p id="captionText"></p></section>
+    <section id="ready" class="screen ready-screen" hidden aria-label="准备起飞">
+      <div class="ready-copy"><span class="flight-mark">✦</span><h2>现在，靠你了。</h2><p>轻触 / 点击 / 空格，向上飞</p><small>穿过障碍之间的空隙</small></div>
+      <span class="tap-ring" aria-hidden="true"></span>
+    </section>
+    <section id="pause" class="screen veil" hidden aria-label="游戏已暂停">
+      <div class="pause-content"><p class="eyebrow">飞行暂缓</p><h2>宇宙可以等一会儿。</h2><button id="resume" class="primary">继续飞行</button><button id="pauseHome" class="text-button">返回起点</button></div>
+    </section>
+    <section id="over" class="screen veil" hidden aria-label="飞行结束">
+      <div class="result-content"><p id="resultHeading" class="eyebrow">本次飞行记录</p><h2>瓦莲娜停止了思考</h2><div class="result-number"><strong id="finalScore">0</strong><span>组障碍</span></div><p id="resultMessage">地球还在那里，再试一次吧。</p><p class="result-best">最远纪录 <strong id="finalBest">0</strong></p><button id="retry" class="primary">再飞一次 <span aria-hidden="true">↻</span></button><button id="home" class="text-button">返回起点</button></div>
+    </section>
+    <section id="success" class="screen success-screen" hidden aria-label="成功返回地球">
+      <div class="success-copy"><p class="eyebrow">安泰宇航 · 返航完成</p><h2>欢迎回到地球。</h2><p>返回舱已安全着陆。</p><button id="watchAgain" class="primary">再看一次</button><button id="successHome" class="text-button">返回起点</button></div>
+    </section>
+    <button id="nowPlaying" hidden title="打开随身电台，切换歌曲"><span class="music-dot" aria-hidden="true"></span><span id="trackName"></span><span class="radio-open" aria-hidden="true">♫</span></button>
+    <button id="audioRecover" class="audio-recover" hidden>轻触启用音乐</button>
+    <p id="announcement" class="sr-only" aria-live="polite"></p>
+  </main>
+  <dialog id="aboutDialog" aria-labelledby="aboutTitle">
+    <button class="dialog-close" data-close="aboutDialog" aria-label="关闭关于">×</button>
+    <p class="eyebrow">关于这次飞行</p><h2 id="aboutTitle">飞翔的瓦莲娜</h2>
+    <p>本作基于霍尔果斯纳罗达礼炮八号设计局开发的《雪松》手游制作，为非商业二创小游戏。</p>
+    <p>角色与原作设定归原权利方所有。</p>
+    <p class="about-story">在火箭发射后的41秒，诺克斯上空再次响起瓦莲娜肘击舱门的声音，此时玛丽安娜明白，她再也无法阻止瓦莲娜单兵飞出大气层返回地球了…</p>
+    <dl class="instructions"><dt>向上飞</dt><dd>轻触、鼠标点击、空格或 ↑</dd><dt>暂停 / 继续</dt><dd>右上角按钮、P 或 Esc</dd><dt>飞行目标</dt><dd>标准 / 塔尔西斯X：躲避障碍<br>安泰宇航：观看成功返航</dd></dl>
+  </dialog>
+  <dialog id="soundDialog" aria-labelledby="soundTitle">
+    <button class="dialog-close" data-close="soundDialog" aria-label="关闭声音设置">×</button>
+    <p class="eyebrow">随身电台</p><h2 id="soundTitle">把打口磁带带回地球</h2>
+    <div class="radio-display"><span id="radioState" class="radio-state">待机</span><p id="soundTrack" class="sound-track" aria-live="polite"></p><button id="nextTrack" class="secondary">下一首 <span aria-hidden="true">⏭</span></button></div>
+    <div id="trackList" class="track-list" role="group" aria-label="选择歌曲"></div>
+    <label for="volume">音乐音量 <output id="volumeValue">25%</output></label><input id="volume" type="range" min="0" max="100" step="1" value="25">
+    <label for="effectsVolume">音效音量 <output id="effectsValue">85%</output></label><input id="effectsVolume" type="range" min="0" max="100" step="1" value="85">
+    <button id="mute" class="secondary">静音</button>
+    <p id="effectStatus" class="sound-tip" role="status" hidden></p>
+    <button id="retryEffects" class="secondary" hidden>重试加载音效</button>
+  </dialog>
+  <noscript><div class="no-script">请使用启用 JavaScript 的浏览器打开此文件。</div></noscript>
+  <audio id="music" preload="none" playsinline></audio>
+  <script defer src="./assets/resources.72f29084213f.js" onerror="document.getElementById('bootError').hidden=false"></script>
+  <script defer src="./assets/core.e161203e954f.js" onerror="document.getElementById('bootError').hidden=false"></script>
+  <script defer src="./assets/app.d2817610ca79.js" onerror="document.getElementById('bootError').hidden=false"></script>
+</body>
+</html>

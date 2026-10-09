@@ -1,0 +1,307 @@
+{
+  "release": "online-r05",
+  "target": "online",
+  "sourceFiles": [
+    {
+      "file": "src/template.html",
+      "sha256": "c5f13f0def91b913617206dc703831ddb2e4e05059c2836a2cede07e9a484e15"
+    },
+    {
+      "file": "src/style.css",
+      "sha256": "fa1e13f73fd8bd8ecdac05e465b6061cdcc83086dd9f762b08766f1ba6ab2dd2"
+    },
+    {
+      "file": "src/core.js",
+      "sha256": "e161203e954f069ff811338cbac19bab7f69836e780858cc4ed841f5b816a129"
+    },
+    {
+      "file": "src/app.js",
+      "sha256": "d2817610ca794f9bf0a7d7b9cc651d15780b75cd848899d54406788eefea4772"
+    },
+    {
+      "file": "src/asset-io-online.js",
+      "sha256": "5bbb4737b25a3e6a40ded3dfafe277db5747325acc92aaae9801bc77e730972f"
+    }
+  ],
+  "buildFiles": [
+    {
+      "file": "scripts/build.cjs",
+      "sha256": "9bed9a0622d2f533e149a5cb1576c16a6ab2c9587403a948fd3e5362c5ff3a1e"
+    },
+    {
+      "file": "scripts/asset-pack.cjs",
+      "sha256": "bea4e154fd922da75988420951d002f118e7c706ea4ba0d21f167468068f8bec"
+    },
+    {
+      "file": "scripts/player-mask.cjs",
+      "sha256": "1bc0dcd110913c7bdf0ba05137030834e5ed8c2c62dc774cbfda0aec88bced6f"
+    }
+  ],
+  "collision": {
+    "source": "assets/valenna.png",
+    "size": 94,
+    "alphaThreshold": 128,
+    "samples": 4231,
+    "sha256": "cceacac3abc4a89895ecace914a1626c617829a233db9ae4cf59631430eee025"
+  },
+  "trackOrder": [
+    "俄罗斯航空太空军军歌 · 小市民红球",
+    "光荣的引路人 · 小市民红球",
+    "Прекрасное далеко · Группа Малыши",
+    "Трава у дома · Сергей Скачков"
+  ],
+  "files": [
+    {
+      "path": "assets/images/head.96a86b337614.png",
+      "bytes": 315739,
+      "sha256": "96a86b337614436e9821bc3e2f018a7af0efe3bd4b32e4538c713461fec3b035",
+      "category": "images",
+      "key": "head",
+      "mime": "image/png",
+      "source": "assets/valenna.png",
+      "sourceSha256": "8b66e3804c4694ac0bc0401fe07013e77325c554a1461b76edafc93b4950f202",
+      "transform": {
+        "width": 512,
+        "withoutEnlargement": true,
+        "compressionLevel": 9
+      }
+    },
+    {
+      "path": "assets/images/rocket.cd99c60cbfd4.png",
+      "bytes": 351552,
+      "sha256": "cd99c60cbfd440a0ea0fc3293783078f63593261592a3156b3f573afb19e7528",
+      "category": "images",
+      "key": "rocket",
+      "mime": "image/png",
+      "source": "assets/rocket.png",
+      "sourceSha256": "9b68f554e9d7c534748fa597c2ff95d4da2ccd41a03c642bcad137ee6289b997",
+      "transform": {
+        "width": 512,
+        "withoutEnlargement": true,
+        "compressionLevel": 9
+      }
+    },
+    {
+      "path": "assets/images/blue.39c9f6a86bda.jpg",
+      "bytes": 108452,
+      "sha256": "39c9f6a86bda8025ff3c9e70b95483ae15d7e9359059c667f583ba666da1b6ae",
+      "category": "images",
+      "key": "blue",
+      "mime": "image/jpeg",
+      "source": "assets/nebula-blue.png",
+      "sourceSha256": "4a9c5c340de521ba6ab9f593b0bb3036c6bf4c1ebfd861ca355b56636c53ec11",
+      "transform": {
+        "width": 768,
+        "withoutEnlargement": true,
+        "quality": 88,
+        "mozjpeg": true
+      }
+    },
+    {
+      "path": "assets/images/rose.7da226eeaca4.jpg",
+      "bytes": 109078,
+      "sha256": "7da226eeaca46c5afc429eb34e835ade996ccc334e82d02d8686217e82f79d4d",
+      "category": "images",
+      "key": "rose",
+      "mime": "image/jpeg",
+      "source": "assets/nebula-rose.png",
+      "sourceSha256": "b3202a3063e44090b61c2ddc1100d2b855715ef4914c44bd7f0b759c2c28d300",
+      "transform": {
+        "width": 768,
+        "withoutEnlargement": true,
+        "quality": 88,
+        "mozjpeg": true
+      }
+    },
+    {
+      "path": "assets/images/capsule.f99f1ba57022.png",
+      "bytes": 421363,
+      "sha256": "f99f1ba570228f353e6d5b997b1cf32ee3b624a56bfda1dda68ebd5befb49f14",
+      "category": "images",
+      "key": "capsule",
+      "mime": "image/png",
+      "source": "assets/capsule-v3.png",
+      "sourceSha256": "73960770a9af3bb233c88e52b46f287c8070d9812db0587bfdba3dc2fbc9fb57",
+      "transform": {
+        "width": 512,
+        "withoutEnlargement": true,
+        "compressionLevel": 9
+      }
+    },
+    {
+      "path": "assets/images/parachute.3281f95354d0.png",
+      "bytes": 533059,
+      "sha256": "3281f95354d00ce746243c87f9a73a001e737194550924672bdb4bc8ac252073",
+      "category": "images",
+      "key": "parachute",
+      "mime": "image/png",
+      "source": "assets/parachute-v3.png",
+      "sourceSha256": "1882669e1dd46684190950621918f76822f2ff9f22d39fe1c160da80283e02bc",
+      "transform": {
+        "width": 768,
+        "withoutEnlargement": true,
+        "compressionLevel": 9
+      }
+    },
+    {
+      "path": "assets/images/chichibei.94610c57274c.png",
+      "bytes": 124261,
+      "sha256": "94610c57274c453aa78ff8ac8140de02c353b77d3ce039d202022ba77342c114",
+      "category": "images",
+      "key": "chichibei",
+      "mime": "image/png",
+      "source": "assets/chichibei-v5.png",
+      "sourceSha256": "19aca9bb3cecdff4bb20530e675357ab6c723dd2c08bd7f0396894730d06502f",
+      "transform": {
+        "width": 256,
+        "withoutEnlargement": true,
+        "compressionLevel": 9
+      }
+    },
+    {
+      "path": "assets/music/anthem.22183702acd9.mp3",
+      "bytes": 9988825,
+      "sha256": "22183702acd94bd0277946f20751a04a6d22a0c26f171aa99c387a3fd909a5cc",
+      "category": "music",
+      "key": "anthem",
+      "mime": "audio/mpeg",
+      "source": "audio/小市民红球 - 俄羅斯航空太空軍軍歌.mp3",
+      "sourceSha256": "22183702acd94bd0277946f20751a04a6d22a0c26f171aa99c387a3fd909a5cc"
+    },
+    {
+      "path": "assets/music/guide.b4035b73fde0.mp3",
+      "bytes": 3817194,
+      "sha256": "b4035b73fde003d89c14dcd3a44fe42fda1be9b43e54c967adcc761011241c20",
+      "category": "music",
+      "key": "guide",
+      "mime": "audio/mpeg",
+      "source": "audio/小市民红球 - 光榮的引路人.mp3",
+      "sourceSha256": "b4035b73fde003d89c14dcd3a44fe42fda1be9b43e54c967adcc761011241c20"
+    },
+    {
+      "path": "assets/music/far-away.b400b3e814c5.mp3",
+      "bytes": 3342143,
+      "sha256": "b400b3e814c5a8839ed8b709f8b78a8f4ccc4b3ab0b31d558e246ab8134de7e1",
+      "category": "music",
+      "key": "far-away",
+      "mime": "audio/mpeg",
+      "source": "audio/Группа Малыши - Прекрасное далеко.mp3",
+      "sourceSha256": "b400b3e814c5a8839ed8b709f8b78a8f4ccc4b3ab0b31d558e246ab8134de7e1"
+    },
+    {
+      "path": "assets/music/grass-home.a20be0b8a291.mp3",
+      "bytes": 5117628,
+      "sha256": "a20be0b8a2910e04ed94caebbf1b5d32f5e4ffe56d2988f81ebb71028730b128",
+      "category": "music",
+      "key": "grass-home",
+      "mime": "audio/mpeg",
+      "source": "audio/Сергей Скачков - Трава у дома.mp3",
+      "sourceSha256": "a20be0b8a2910e04ed94caebbf1b5d32f5e4ffe56d2988f81ebb71028730b128"
+    },
+    {
+      "path": "assets/effects/failure.97e334e5df9a.wav",
+      "bytes": 106574,
+      "sha256": "97e334e5df9ae393111067a01b3cf30a8be531e26c4ae474808e62563f461ead",
+      "category": "effects",
+      "key": "failure",
+      "mime": "audio/wav",
+      "source": "assets/failure-v2.wav",
+      "sourceSha256": "97e334e5df9ae393111067a01b3cf30a8be531e26c4ae474808e62563f461ead"
+    },
+    {
+      "path": "assets/effects/cheer.b6fef6d3d080.wav",
+      "bytes": 635084,
+      "sha256": "b6fef6d3d080a4c2f4393468197e5a02a0887e322c049f1d436e88e9eb90b278",
+      "category": "effects",
+      "key": "cheer",
+      "mime": "audio/wav",
+      "source": "assets/cheer-v3.wav",
+      "sourceSha256": "b6fef6d3d080a4c2f4393468197e5a02a0887e322c049f1d436e88e9eb90b278"
+    },
+    {
+      "path": "assets/style.fa1e13f73fd8.css",
+      "bytes": 15976,
+      "sha256": "fa1e13f73fd8bd8ecdac05e465b6061cdcc83086dd9f762b08766f1ba6ab2dd2",
+      "category": "style",
+      "mime": "text/css"
+    },
+    {
+      "path": "assets/resources.72f29084213f.js",
+      "bytes": 63853,
+      "sha256": "72f29084213fe9fd9b91861a83d92e66b66c9916a6f110f20957c5ec433e770b",
+      "category": "script",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "assets/core.e161203e954f.js",
+      "bytes": 9794,
+      "sha256": "e161203e954f069ff811338cbac19bab7f69836e780858cc4ed841f5b816a129",
+      "category": "script",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "assets/app.d2817610ca79.js",
+      "bytes": 55727,
+      "sha256": "d2817610ca794f9bf0a7d7b9cc651d15780b75cd848899d54406788eefea4772",
+      "category": "script",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8123,
+      "sha256": "d0fd52b1928cdd58b7e965a711481c2f718f89dd71fbd1d344910c9501b2ceb2",
+      "category": "entry",
+      "mime": "text/html"
+    },
+    {
+      "path": "404.html",
+      "bytes": 173,
+      "sha256": "a24fc4ab936576463034ca46466fe4ae8aa193764e999336ee5ec00cb65959ce",
+      "category": "error",
+      "mime": "text/html"
+    },
+    {
+      "path": "_headers",
+      "bytes": 165,
+      "sha256": "aea8740bd87bb5c656bfdeca473fc9e13fed7a74c82a388b7fd3df4de3088586",
+      "category": "config",
+      "mime": "text/plain"
+    }
+  ],
+  "totalBytes": 25124763,
+  "tools": {
+    "node": "v24.19.0",
+    "sharp": {
+      "aom": "3.15.1",
+      "archive": "3.8.9",
+      "cairo": "1.18.6",
+      "cgif": "0.5.4",
+      "exif": "0.6.26",
+      "expat": "2.8.5",
+      "ffi": "3.8.0",
+      "fontconfig": "2.18.3",
+      "freetype": "2.14.3",
+      "fribidi": "1.0.17",
+      "glib": "2.90.0",
+      "harfbuzz": "14.5.0",
+      "heif": "1.23.5",
+      "highway": "1.4.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.19.1",
+      "mozjpeg": "0826579",
+      "pango": "1.58.2",
+      "pixman": "0.46.4",
+      "png": "1.6.58",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.63.2",
+      "tiff": "4.7.2",
+      "uhdr": "2.0.2",
+      "vips": "8.18.7",
+      "webp": "1.6.0",
+      "xml2": "2.15.4",
+      "zlib-ng": "2.3.3",
+      "sharp": "0.35.5"
+    }
+  },
+  "builtAt": "2026-10-08T18:27:15.386Z"
+}

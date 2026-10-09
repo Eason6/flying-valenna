@@ -1,0 +1,140 @@
+{
+  "artifact": "dist/飞翔的瓦莲娜.html",
+  "bytes": 33447872,
+  "sha256": "7295adf0278229e037b3a2ef36f06ea19551a0b5022388b9cd68678164277ced",
+  "images": [
+    {
+      "key": "head",
+      "source": "assets/valenna.png",
+      "sourceSha256": "8b66e3804c4694ac0bc0401fe07013e77325c554a1461b76edafc93b4950f202",
+      "embeddedSha256": "96a86b337614436e9821bc3e2f018a7af0efe3bd4b32e4538c713461fec3b035",
+      "bytes": 315739
+    },
+    {
+      "key": "rocket",
+      "source": "assets/rocket.png",
+      "sourceSha256": "9b68f554e9d7c534748fa597c2ff95d4da2ccd41a03c642bcad137ee6289b997",
+      "embeddedSha256": "cd99c60cbfd440a0ea0fc3293783078f63593261592a3156b3f573afb19e7528",
+      "bytes": 351552
+    },
+    {
+      "key": "blue",
+      "source": "assets/nebula-blue.png",
+      "sourceSha256": "4a9c5c340de521ba6ab9f593b0bb3036c6bf4c1ebfd861ca355b56636c53ec11",
+      "embeddedSha256": "39c9f6a86bda8025ff3c9e70b95483ae15d7e9359059c667f583ba666da1b6ae",
+      "bytes": 108452
+    },
+    {
+      "key": "rose",
+      "source": "assets/nebula-rose.png",
+      "sourceSha256": "b3202a3063e44090b61c2ddc1100d2b855715ef4914c44bd7f0b759c2c28d300",
+      "embeddedSha256": "7da226eeaca46c5afc429eb34e835ade996ccc334e82d02d8686217e82f79d4d",
+      "bytes": 109078
+    },
+    {
+      "key": "capsule",
+      "source": "assets/capsule-v3.png",
+      "sourceSha256": "73960770a9af3bb233c88e52b46f287c8070d9812db0587bfdba3dc2fbc9fb57",
+      "embeddedSha256": "f99f1ba570228f353e6d5b997b1cf32ee3b624a56bfda1dda68ebd5befb49f14",
+      "bytes": 421363
+    },
+    {
+      "key": "parachute",
+      "source": "assets/parachute-v3.png",
+      "sourceSha256": "1882669e1dd46684190950621918f76822f2ff9f22d39fe1c160da80283e02bc",
+      "embeddedSha256": "3281f95354d00ce746243c87f9a73a001e737194550924672bdb4bc8ac252073",
+      "bytes": 533059
+    },
+    {
+      "key": "chichibei",
+      "source": "assets/chichibei-v5.png",
+      "sourceSha256": "19aca9bb3cecdff4bb20530e675357ab6c723dd2c08bd7f0396894730d06502f",
+      "embeddedSha256": "94610c57274c453aa78ff8ac8140de02c353b77d3ce039d202022ba77342c114",
+      "bytes": 124261
+    }
+  ],
+  "tracks": [
+    {
+      "title": "俄罗斯航空太空军军歌 · 小市民红球",
+      "source": "audio/小市民红球 - 俄羅斯航空太空軍軍歌.mp3",
+      "bytes": 9988825,
+      "sha256": "22183702acd94bd0277946f20751a04a6d22a0c26f171aa99c387a3fd909a5cc"
+    },
+    {
+      "title": "光荣的引路人 · 小市民红球",
+      "source": "audio/小市民红球 - 光榮的引路人.mp3",
+      "bytes": 3817194,
+      "sha256": "b4035b73fde003d89c14dcd3a44fe42fda1be9b43e54c967adcc761011241c20"
+    },
+    {
+      "title": "Прекрасное далеко · Группа Малыши",
+      "source": "audio/Группа Малыши - Прекрасное далеко.mp3",
+      "bytes": 3342143,
+      "sha256": "b400b3e814c5a8839ed8b709f8b78a8f4ccc4b3ab0b31d558e246ab8134de7e1"
+    },
+    {
+      "title": "Трава у дома · Сергей Скачков",
+      "source": "audio/Сергей Скачков - Трава у дома.mp3",
+      "bytes": 5117628,
+      "sha256": "a20be0b8a2910e04ed94caebbf1b5d32f5e4ffe56d2988f81ebb71028730b128"
+    }
+  ],
+  "effects": [
+    {
+      "source": "assets/failure-v2.wav",
+      "original": "audio/失败音效.m4s",
+      "originalSha256": "c5c6625e2eacfff9b14520c11c7c4dd91471ea5dffc3e62169ec9fc8bf4ac9dc",
+      "sha256": "97e334e5df9ae393111067a01b3cf30a8be531e26c4ae474808e62563f461ead",
+      "bytes": 106574
+    },
+    {
+      "source": "assets/cheer-v3.wav",
+      "provenance": "Original procedural crowd cheers, claps and whistles; scripts/generate-cheer.cjs",
+      "sha256": "b6fef6d3d080a4c2f4393468197e5a02a0887e322c049f1d436e88e9eb90b278",
+      "bytes": 635084
+    }
+  ],
+  "collision": {
+    "source": "assets/valenna.png",
+    "size": 94,
+    "alphaThreshold": 128,
+    "samples": 4231,
+    "sha256": "cceacac3abc4a89895ecace914a1626c617829a233db9ae4cf59631430eee025"
+  },
+  "sourceFiles": [
+    {
+      "file": "src/template.html",
+      "sha256": "c5f13f0def91b913617206dc703831ddb2e4e05059c2836a2cede07e9a484e15"
+    },
+    {
+      "file": "src/style.css",
+      "sha256": "fa1e13f73fd8bd8ecdac05e465b6061cdcc83086dd9f762b08766f1ba6ab2dd2"
+    },
+    {
+      "file": "src/core.js",
+      "sha256": "e161203e954f069ff811338cbac19bab7f69836e780858cc4ed841f5b816a129"
+    },
+    {
+      "file": "src/app.js",
+      "sha256": "d2817610ca794f9bf0a7d7b9cc651d15780b75cd848899d54406788eefea4772"
+    },
+    {
+      "file": "src/asset-io-offline.js",
+      "sha256": "9724902f7f3ff2764dea29a827aa14e53c86fdd21d252dc7dde00bcfaa743c04"
+    }
+  ],
+  "buildFiles": [
+    {
+      "file": "scripts/build.cjs",
+      "sha256": "9bed9a0622d2f533e149a5cb1576c16a6ab2c9587403a948fd3e5362c5ff3a1e"
+    },
+    {
+      "file": "scripts/asset-pack.cjs",
+      "sha256": "bea4e154fd922da75988420951d002f118e7c706ea4ba0d21f167468068f8bec"
+    },
+    {
+      "file": "scripts/player-mask.cjs",
+      "sha256": "1bc0dcd110913c7bdf0ba05137030834e5ed8c2c62dc774cbfda0aec88bced6f"
+    }
+  ]
+}

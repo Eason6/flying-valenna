@@ -1,0 +1,1297 @@
+{
+  "baseline": "f2833c4",
+  "gates": [
+    {
+      "x": 590,
+      "center": 323.7589165531099,
+      "gap": 258,
+      "type": "asteroid",
+      "id": 2,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 357.6798818297684,
+      "gap": 256.8,
+      "type": "rocket",
+      "id": 3,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 392.05573605932295,
+      "gap": 255.6,
+      "type": "satellite",
+      "id": 4,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 403.30777958408,
+      "gap": 254.4,
+      "type": "asteroid",
+      "id": 5,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 357.18396322615445,
+      "gap": 253.2,
+      "type": "rocket",
+      "id": 6,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 263.37179670110345,
+      "gap": 252,
+      "type": "satellite",
+      "id": 7,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 339.81541877985,
+      "gap": 250.8,
+      "type": "asteroid",
+      "id": 8,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 345.7084029093385,
+      "gap": 249.6,
+      "type": "rocket",
+      "id": 9,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 400.3697773143649,
+      "gap": 248.4,
+      "type": "satellite",
+      "id": 10,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 378.00988546945155,
+      "gap": 247.2,
+      "type": "asteroid",
+      "id": 11,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 363.7583591192961,
+      "gap": 246,
+      "type": "rocket",
+      "id": 12,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 282.67498193122447,
+      "gap": 244.8,
+      "type": "satellite",
+      "id": 13,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 386.3402885850519,
+      "gap": 243.6,
+      "type": "asteroid",
+      "id": 14,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 375.0745779145509,
+      "gap": 242.4,
+      "type": "rocket",
+      "id": 15,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 269.87582876347005,
+      "gap": 241.2,
+      "type": "satellite",
+      "id": 16,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 373.04286237061024,
+      "gap": 240,
+      "type": "asteroid",
+      "id": 17,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 393.20391671545804,
+      "gap": 238.8,
+      "type": "rocket",
+      "id": 18,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 452.8149298839271,
+      "gap": 237.6,
+      "type": "satellite",
+      "id": 19,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 438.47019900009036,
+      "gap": 236.4,
+      "type": "asteroid",
+      "id": 20,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 445.4115390405059,
+      "gap": 235.2,
+      "type": "rocket",
+      "id": 21,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 547.9437892772257,
+      "gap": 234,
+      "type": "satellite",
+      "id": 22,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 498.1741202343255,
+      "gap": 232.8,
+      "type": "asteroid",
+      "id": 23,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 521.0216838959605,
+      "gap": 231.6,
+      "type": "rocket",
+      "id": 24,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 413.6076520010829,
+      "gap": 230.4,
+      "type": "satellite",
+      "id": 25,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 314.31134659424424,
+      "gap": 229.2,
+      "type": "asteroid",
+      "id": 26,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 280.56080933101475,
+      "gap": 228,
+      "type": "rocket",
+      "id": 27,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 243.4,
+      "gap": 226.8,
+      "type": "satellite",
+      "id": 28,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 346.89581390991805,
+      "gap": 225.6,
+      "type": "asteroid",
+      "id": 29,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 256.7204419314861,
+      "gap": 224.4,
+      "type": "rocket",
+      "id": 30,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 322.4925723053515,
+      "gap": 223.2,
+      "type": "satellite",
+      "id": 31,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 241,
+      "gap": 222,
+      "type": "asteroid",
+      "id": 32,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 334.916331872344,
+      "gap": 220.8,
+      "type": "rocket",
+      "id": 33,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 334.1449337732047,
+      "gap": 219.6,
+      "type": "satellite",
+      "id": 34,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 426.2333988752216,
+      "gap": 218.4,
+      "type": "asteroid",
+      "id": 35,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 434.4921988788992,
+      "gap": 218,
+      "type": "rocket",
+      "id": 36,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 454.62584852427244,
+      "gap": 218,
+      "type": "satellite",
+      "id": 37,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 388.0992191750556,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 38,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 428.60279841534793,
+      "gap": 218,
+      "type": "rocket",
+      "id": 39,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 491.78830170072615,
+      "gap": 218,
+      "type": "satellite",
+      "id": 40,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 387.4593822211027,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 41,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 469.13397406600416,
+      "gap": 218,
+      "type": "rocket",
+      "id": 42,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 543.8891017828137,
+      "gap": 218,
+      "type": "satellite",
+      "id": 43,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 601,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 44,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 545.7012764569372,
+      "gap": 218,
+      "type": "rocket",
+      "id": 45,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 568.2789709828794,
+      "gap": 218,
+      "type": "satellite",
+      "id": 46,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 555.3064317107201,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 47,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 502.8778956774622,
+      "gap": 218,
+      "type": "rocket",
+      "id": 48,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 570.333943894133,
+      "gap": 218,
+      "type": "satellite",
+      "id": 49,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 601,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 50,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 500.0079976450652,
+      "gap": 218,
+      "type": "rocket",
+      "id": 51,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 571.2732247579843,
+      "gap": 218,
+      "type": "satellite",
+      "id": 52,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 464.4123656321317,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 53,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 443.63288505002856,
+      "gap": 218,
+      "type": "rocket",
+      "id": 54,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 349.02902602776885,
+      "gap": 218,
+      "type": "satellite",
+      "id": 55,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 248.14435778185725,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 56,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 300.5541156027466,
+      "gap": 218,
+      "type": "rocket",
+      "id": 57,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 358.87348143197596,
+      "gap": 218,
+      "type": "satellite",
+      "id": 58,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 394.67085465602577,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 59,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 395.90420755185187,
+      "gap": 218,
+      "type": "rocket",
+      "id": 60,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 446.9230700302869,
+      "gap": 218,
+      "type": "satellite",
+      "id": 61,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 502.8937024716288,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 62,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 538.486973805353,
+      "gap": 218,
+      "type": "rocket",
+      "id": 63,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 440.4830889683217,
+      "gap": 218,
+      "type": "satellite",
+      "id": 64,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 542.1623591706157,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 65,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 507.24800258129835,
+      "gap": 218,
+      "type": "rocket",
+      "id": 66,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 552.3683816138655,
+      "gap": 218,
+      "type": "satellite",
+      "id": 67,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 509.259516665712,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 68,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 416.80654453858733,
+      "gap": 218,
+      "type": "rocket",
+      "id": 69,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 450.56821174547076,
+      "gap": 218,
+      "type": "satellite",
+      "id": 70,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 546.6245691254735,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 71,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 461.41492202319205,
+      "gap": 218,
+      "type": "rocket",
+      "id": 72,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 393.13654895685613,
+      "gap": 218,
+      "type": "satellite",
+      "id": 73,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 474.33217432908714,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 74,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 561.0192017704248,
+      "gap": 218,
+      "type": "rocket",
+      "id": 75,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 547.06154352054,
+      "gap": 218,
+      "type": "satellite",
+      "id": 76,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 594.1044564321637,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 77,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 601,
+      "gap": 218,
+      "type": "rocket",
+      "id": 78,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 570.5224619321525,
+      "gap": 218,
+      "type": "satellite",
+      "id": 79,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 601,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 80,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 601,
+      "gap": 218,
+      "type": "rocket",
+      "id": 81,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 532.858854111284,
+      "gap": 218,
+      "type": "satellite",
+      "id": 82,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 537.4118971582502,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 83,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 471.0711783878505,
+      "gap": 218,
+      "type": "rocket",
+      "id": 84,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 387.54347725212574,
+      "gap": 218,
+      "type": "satellite",
+      "id": 85,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 456.56061547249556,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 86,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 429.3614696506411,
+      "gap": 218,
+      "type": "rocket",
+      "id": 87,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 451.5206540245563,
+      "gap": 218,
+      "type": "satellite",
+      "id": 88,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 492.4550619479269,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 89,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 584.0030425544828,
+      "gap": 218,
+      "type": "rocket",
+      "id": 90,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 504.4564467612654,
+      "gap": 218,
+      "type": "satellite",
+      "id": 91,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 596.8335832506418,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 92,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 601,
+      "gap": 218,
+      "type": "rocket",
+      "id": 93,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 563.0038156788796,
+      "gap": 218,
+      "type": "satellite",
+      "id": 94,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 520.7093063518405,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 95,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 445.1539453472942,
+      "gap": 218,
+      "type": "rocket",
+      "id": 96,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 404.9169234521687,
+      "gap": 218,
+      "type": "satellite",
+      "id": 97,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 412.1281172391027,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 98,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 374.7200208567083,
+      "gap": 218,
+      "type": "rocket",
+      "id": 99,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 273.9062011502683,
+      "gap": 218,
+      "type": "satellite",
+      "id": 100,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 340.0444294176996,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 101,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 239.59639328345656,
+      "gap": 218,
+      "type": "rocket",
+      "id": 102,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 239,
+      "gap": 218,
+      "type": "satellite",
+      "id": 103,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 330.8139632213861,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 104,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 319.62103288434446,
+      "gap": 218,
+      "type": "rocket",
+      "id": 105,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 366.1872907169163,
+      "gap": 218,
+      "type": "satellite",
+      "id": 106,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 352.77485848776996,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 107,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 331.8012142032385,
+      "gap": 218,
+      "type": "rocket",
+      "id": 108,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 397.7881344500929,
+      "gap": 218,
+      "type": "satellite",
+      "id": 109,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 340.1079256851226,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 110,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 385.29151273332536,
+      "gap": 218,
+      "type": "rocket",
+      "id": 111,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 391.1304719597101,
+      "gap": 218,
+      "type": "satellite",
+      "id": 112,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 387.97259726561606,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 113,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 342.48330819420516,
+      "gap": 218,
+      "type": "rocket",
+      "id": 114,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 254.57082235254347,
+      "gap": 218,
+      "type": "satellite",
+      "id": 115,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 353.3682945165783,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 116,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 273.72006725892425,
+      "gap": 218,
+      "type": "rocket",
+      "id": 117,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 351.0196995809674,
+      "gap": 218,
+      "type": "satellite",
+      "id": 118,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 269.1923020873219,
+      "gap": 218,
+      "type": "asteroid",
+      "id": 119,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 318.004746388644,
+      "gap": 218,
+      "type": "rocket",
+      "id": 120,
+      "scored": false
+    },
+    {
+      "x": 590,
+      "center": 420.77176270261407,
+      "gap": 218,
+      "type": "satellite",
+      "id": 121,
+      "scored": false
+    }
+  ],
+  "frames": [
+    {
+      "player": {
+        "x": 114,
+        "y": 397.1972222222222,
+        "vy": -336.3333333333333,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 1.2166666666666666
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 356.30833333333317,
+        "vy": -162.99999999999991,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 25.549999999999986
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 344.3083333333333,
+        "vy": 10.3333333333334,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 49.88333333333334
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 361.1972222222221,
+        "vy": 183.66666666666669,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 74.21666666666671
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 364.797222222222,
+        "vy": -275.6666666666665,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 98.55000000000008
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 334.01944444444416,
+        "vy": -102.33333333333327,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 122.88333333333345
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 332.13055555555536,
+        "vy": 71.00000000000006,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 147.2166666666668
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 359.13055555555525,
+        "vy": 244.3333333333333,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 171.55000000000018
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 335.9361111111107,
+        "vy": -214.99999999999986,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 195.88333333333355
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 315.26944444444405,
+        "vy": -41.66666666666659,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 220.21666666666692
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 323.4916666666663,
+        "vy": 131.66666666666674,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 244.5500000000003
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 350.0583333333329,
+        "vy": -327.66666666666663,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 268.8833333333334
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 310.6138888888883,
+        "vy": -154.33333333333326,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 293.2166666666662
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 300.0583333333329,
+        "vy": 19.000000000000064,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 317.549999999999
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 318.3916666666661,
+        "vy": 192.33333333333334,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 341.8833333333318
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 318.1638888888882,
+        "vy": -266.99999999999983,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 366.2166666666646
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 288.83055555555484,
+        "vy": -93.6666666666666,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 390.5499999999974
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 288.3861111111105,
+        "vy": 79.66666666666673,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 414.8833333333302
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 316.83055555555484,
+        "vy": 252.99999999999994,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 439.216666666663
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 289.8083333333325,
+        "vy": -206.3333333333332,
+        "r": 18
+      },
+      "score": 0,
+      "alive": true,
+      "distance": 463.5499999999958
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    },
+    {
+      "player": {
+        "x": 114,
+        "y": 286.58611111111026,
+        "vy": -188.9999999999999,
+        "r": 18
+      },
+      "score": 0,
+      "alive": false,
+      "distance": 465.9833333333291
+    }
+  ]
+}
